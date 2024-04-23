@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+		<nav class="container">
+			<ul class="menu">
+				<li><a href="index.html">JIRA</a></li>
+				<li><a href="sql.html">SQL</a></li>
+			</ul>
+		</nav>
+	</header>
+    <main>
+        <h1 class="sql-h1">SQL Project</h1>
+        
+            <h3>1. Krok - vytvorenie tabuliek</h3>
+                <ul class="ul-table">
+                    <li><a href="https://docs.google.com/spreadsheets/d/16mts_NbJ7KkLjt1I9AxwDN1D9KTlmt6NJUWeD8rru6A/edit#gid=0">continent</a></li>
+                    <li><a href="https://docs.google.com/spreadsheets/d/1zBkG2Th5RkTwEoAHHTPGxCy5mgfz3aUju2XNDFd1zYo/edit#gid=0">language</a></li>
+                    <li><a href="https://docs.google.com/spreadsheets/d/1sa87SxpRF6jKniH-YIwcf1XPOBUyDQxnTLwpneu9YV8/edit#gid=0">currency</a></li>
+                    <li><a href="https://docs.google.com/spreadsheets/d/1uahhbsu_h6c_CsFJ4VswPt5VElW77Ch7OuDFCd-lflA/edit#gid=0">europa</a></li>
+                    <li><a href="https://docs.google.com/spreadsheets/d/1nPTi3e42T9oAvUIVFm3nvKCTCmcxUeEhFjGrb7mWvlc/edit#gid=0">eu</a></li>
+                    <li class="last-li"><a href="https://docs.google.com/spreadsheets/d/1wJKfjn_Rim4gIHzvBWlQORvwVvyq8wcqNz1YjZ3IYNU/edit#gid=0">language_in_country</a></li>
+                </ul>
+            <h3>2. Krok - vytvorenie tabuliek v PGadmin 4 a importovanie dát z vytvorených tabuliek</h3>
+            
+                <p><a href="img/sql-create-table.png" alt="screenshot tvorby tabuliek">CREATE TABLE</a></p>
+            
+            <h3>3. Krok - ukážky:</h3>
+            <ol>
+                <li>COUNT</li>
+                    <p><a href="img/sql1.png" alt="ukazka-count">Koľko štátov ma populáciu vyššiu než 10 000 000</a></p>
+                <li>MIN</li>
+                    <p><a href="img/sql2.png" alt="ukazka-MIN">Aká je plocha, najmenšieho štátu</a></p>
+                <li>MAX</li>
+                    <p><a href="img/sql3.png" alt="ukazka-MAX">Aká je plocha, najväčšieho štátu</a></p>
+                <li>BETWEEN</li>
+                    <p><a href="img/sql4.png" alt="ukazka-BETWEEN">Štáty ktorých populacia je väčšia ako 5 000 000 a menšia ako 10 000 000</a></p>
+                <li>LIKE</li>
+                    <p><a href="img/sql5.png" alt="ukazka-LIKE">Hlavné mestá začínajúce na V</a></p>
+                <li>GROUP BY</li>
+                    <p><a href="img/sql6.png" alt="ukazka-GROUP BY">Zoznam najviac používaných úradných jazykov v Europe</a></p>
+                <li>INNER JOIN</li>
+                    <p><a href="img/sql7.png" alt="ukazka-INNER JOIN">Štáty, všetký ich úradné jazyky a meny</a></p>
+                <li>FULL OUTER JOIN</li>
+                    <p><a href="img/sql8.png" alt="ukazka-FULL OUTER JOIN">Štáty ktoré niesú v EU</a></p>
+                <li>LEFT JOIN</li>
+                    <p><a href="img/sql9.png" alt="ukazka-LEFT JOIN">Štáty ktoré sú v EU</a></p>
+                <li>INSERT INTO</li>  
+                    <p><a href="img/sql10.png" alt="ukazka-INSERT INTO">Vloženie údajov do tabuliek</a></p>  
+            </ol>
+    </main>
+</body>
+</html>
