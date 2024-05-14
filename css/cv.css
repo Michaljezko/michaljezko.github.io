@@ -1,0 +1,168 @@
+body {
+  height: 100%;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    padding-left: 30px;
+    border-bottom: #9FB1BC 1px solid;
+    padding-bottom: 15px;
+}
+
+h3 {
+    padding-left: 30px;
+}
+
+h4 {
+  padding-left: 25px;
+}
+
+img {
+  height: 135px;
+  border-radius: 90%;
+  padding: 3px;
+}
+
+.title-h2 {
+    padding-top: 30px;
+}
+
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:'FontAwesome';
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.contact {
+    padding-bottom: 10px;
+}
+
+.contact p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.contact-title {
+  margin-top: 0;
+}
+.company {
+  font-weight: 800;
+  text-decoration:double;
+}
+strong {
+    display: block;
+    padding-top: 10px;
+}
+.work {
+  font-size: 18px;
+}
+
+a {
+    color:#9FB1BC;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #D3D0CB
+}
+
+.portfolio a {
+  color: #2e5266;
+}
+
+.portfolio a:hover {
+  color: #9FB1BC;
+}
+
+.portfolio-p {
+  font-size: 22px;
+}
+nav {
+  background: #2e5266;
+  color:#D3D0CB;
+}
+
+section:nth-child(1) { 
+    background: #2e5266; 
+    color: #9FB1BC;
+    
+}
+.text {
+  height: auto;
+} 
+
+section:nth-child(2) { 
+    background: #6e8898;
+    color: #D3D0CB; 
+    
+  }
+    
+.column-1, 
+.column-2, 
+.column-3, 
+.column-4, 
+.column-5, 
+.column-6, 
+.column-7, 
+.column-8, 
+.column-9,
+.column-10,
+.column-11,
+.column-12
+ {
+  float: left;
+  height: 1050px;
+}
+
+.column-12 {
+  width: 100%;
+  height: 140px;
+}
+.column-11 {
+  width: 91,66666666666667%;
+}
+.column-10 {
+  width: 83,33333333333333%;
+}
+.column-9 {
+  width: 75%;
+}
+.column-8 {
+  width: 66,66666666666667%;
+}
+.column-7 {
+  width: 58,33333333333333%;
+}
+.column-6 {
+  width: 50%;
+}
+.column-5 {
+  width: 41,66666666666667%;
+}
+.column-4 {
+  width: 33,33333333333333%;
+}
+.column-3 {
+  width: 25%;
+}
+.column-2 {
+  width: 16,66666666666667%;
+}
+.column-1 {
+  width: 8,333333333333333%;
+}
+
+
+
+.group:before,
+.group:after { content: ""; display: table; }
+.group:after { clear: both; }
