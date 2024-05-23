@@ -120,7 +120,7 @@ section:nth-child(2) {
 .column-12
  {
   float: left;
-  height: 1050px;
+  height: 1080px;
 }
 
 .column-12 {
@@ -227,5 +227,6 @@ section:nth-child(2) {
 
   .text {
     background: #6e8898;
+    height: 1080px;
   }
 }
