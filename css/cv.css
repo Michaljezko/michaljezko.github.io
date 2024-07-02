@@ -247,6 +247,9 @@ section:nth-child(2) {
   }
 
   .text {
-    height: 1320px;
+    height: 100%;
+  }
+  .last-line {
+    padding-bottom: 30px;
   }
 }
