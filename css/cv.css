@@ -120,7 +120,7 @@ section:nth-child(2) {
 .column-12
  {
   float: left;
-  height: 1080px;
+  height: 1120px;
 }
 
 .column-12 {
@@ -183,12 +183,13 @@ section:nth-child(2) {
   }
 }
 
+
 @media ( max-width: 750px) { 
 .column-3, 
 .column-9
  {
   float: left;
-  height: 1150px;
+  /* height: 1350px; */
 }
 }
 
